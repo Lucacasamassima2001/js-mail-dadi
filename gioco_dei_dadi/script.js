@@ -12,13 +12,7 @@ const maxNumber = parseInt(7)
 
 let display = document.getElementById("Who-wins")
 
-
-
-if (userNumber >= maxNumber){
-    console.log("Hai barato!")
-    display.innerHTML = "HAI BARATO!";
-
-}else if(userNumber > pcNumber){
+ if(userNumber > pcNumber){
     console.log("hai vinto utente!")
     display.innerHTML = "HAI VINTO UTENTE!";
 
