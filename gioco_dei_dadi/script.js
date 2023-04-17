@@ -10,17 +10,23 @@ console.log(pcNumber.toFixed(0))
 
 const maxNumber = parseInt(7)
 
+let display = document.getElementById("Who-wins")
+
+
+
 if (userNumber >= maxNumber){
     console.log("Hai barato!")
+    display.innerHTML = "HAI BARATO!";
+
 }else if(userNumber > pcNumber){
     console.log("hai vinto utente!")
+    display.innerHTML = "HAI VINTO UTENTE!";
+
     }else if(userNumber < pcNumber){
         console.log("hai perso utente!")
+        display.innerHTML = "HAI PERSO UTENTE!";
         
     }else if (userNumber = pcNumber){
-        console.log("i numeri si equivalgono")    
-        
-    }else if (userNumber = isNaN){
-        console.log("numero non valido")
-        
+        console.log("i numeri si equivalgono")
+        display.innerHTML = "I NUMERI SI EQUIVALGONO!";  
     }
