@@ -13,5 +13,5 @@ const NamesList = ["michele@gmail.com","laura@gmail.com","luisa@gmail.com","gius
 if (NamesList.includes(usermail)){
     console.log("benvenuto nella tua area personale!")
 }else{
-    console.log("Non risulta alcuna mail con questo nome.")
+    console.log("Non risulta alcuna mail con questo indirizzo.")
 }
