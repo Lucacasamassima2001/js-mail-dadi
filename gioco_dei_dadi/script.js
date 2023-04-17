@@ -8,7 +8,7 @@ console.log(userNumber.toFixed(0))
 let pcNumber = parseInt(Math.random(1)* 7.);
 console.log(pcNumber.toFixed(0))
 
-const maxNumber = parseInt(7)
+
 
 let display = document.getElementById("Who-wins")
 
