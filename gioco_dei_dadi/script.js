@@ -2,10 +2,10 @@
 // Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
-let userNumber = parseInt(Math.random(1)* 7.);
+let userNumber = parseInt(Math.random()* 6.) + 1;
 console.log(userNumber.toFixed(0))
 
-let pcNumber = parseInt(Math.random(1)* 7.);
+let pcNumber = parseInt(Math.random()* 6.) + 1;
 console.log(pcNumber.toFixed(0))
 
 
